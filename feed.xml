@@ -1,30 +1,82 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Art by Nidhi</title>
+    <description>Artwork by Singapore based Nidhi Mathur (art_n_canvas).
+</description>
+    <link>https://nidhi.studio/</link>
+    <atom:link href="https://nidhi.studio/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 May 2022 10:16:13 +0000</pubDate>
+    <lastBuildDate>Thu, 05 May 2022 10:16:13 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Exhibition: Gorgeous Transformation Art Exhibition 2022 (IOn Orchard, Singapore)</title>
+        <description>&lt;p&gt;Got an opportunity to present my work at Gorgeous Transformation Art Exhibition 2022, by the Women Artists Association at IOn Orchard, Singapore&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ionorchard.com/event/gorgeous-transformation-art-exhibition-2022&quot; title=&quot;https://www.ionorchard.com/event/gorgeous-transformation-art-exhibition-2022&quot;&gt;https://www.ionorchard.com/event/gorgeous-transformation-art-exhibition-2022&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 29 Apr 2022 18:30:00 +0000</pubDate>
+        <link>https://nidhi.studio/2022/04/29/exhibition-Women_Artists_Association_2022-singapore/</link>
+        <guid isPermaLink="true">https://nidhi.studio/2022/04/29/exhibition-Women_Artists_Association_2022-singapore/</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Exhibition: &quot;If Walls Could Speak&quot; 2020 (IOn Orchard, Singapore)</title>
+        <description>&lt;p&gt;Got an opportunity to present my work at IOn Orchard, Singapore&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ionorchard.com/event/if-walls-could-speak&quot; title=&quot;https://www.ionorchard.com/event/if-walls-could-speak&quot;&gt;https://www.ionorchard.com/event/if-walls-could-speak&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 01 Feb 2020 18:30:00 +0000</pubDate>
+        <link>https://nidhi.studio/2020/02/01/exhibition-IOn-2020-singapore/</link>
+        <guid isPermaLink="true">https://nidhi.studio/2020/02/01/exhibition-IOn-2020-singapore/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Exhibition: Mauritius international Art Fair 2019 (Mauritius)</title>
+        <description>&lt;p&gt;Got an opportunity to present my work at Mauritius international Art Fair, Mauritius&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mauritiusartfair.com/&quot; title=&quot;https://www.mauritiusartfair.com/&quot;&gt;https://www.mauritiusartfair.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Event Video: https://fb.watch/cOxOZemx_h/?mibextid=ZaZkta&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/exhibitions_MIAF_2019_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Aug 2019 18:30:00 +0000</pubDate>
+        <link>https://nidhi.studio/2019/08/08/exhibition-miaf-2019-singapore/</link>
+        <guid isPermaLink="true">https://nidhi.studio/2019/08/08/exhibition-miaf-2019-singapore/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Exhibition: Tatinis 2019 (Singapore)</title>
+        <description>&lt;p&gt;Got an opportunity to present my work at Tatinis Art Festival, Singapore&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tatinisartshow.com/&quot; title=&quot;https://www.tatinisartshow.com/&quot;&gt;https://www.tatinisartshow.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/exhibitions_Tatinis_2019_7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/exhibitions_Tatinis_2019_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/exhibitions_Tatinis_2019_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/exhibitions_Tatinis_2019_3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/exhibitions_Tatinis_2019_6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 18:30:00 +0000</pubDate>
+        <link>https://nidhi.studio/2019/05/23/exhibition-tatinis-2019-singapore/</link>
+        <guid isPermaLink="true">https://nidhi.studio/2019/05/23/exhibition-tatinis-2019-singapore/</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>
